@@ -3,6 +3,7 @@ import Benefits from './componenets/Benefits'
 import Collaboration from './componenets/Collaboration'
 import Header from './componenets/Header'
 import Hero from './componenets/Hero'
+import Services from './componenets/Services'
 function App() {
   return (
     <>      
@@ -13,6 +14,7 @@ function App() {
       </div>
       <ButtonGradient />
       <Collaboration />
+      <Services />
     </>
   )
 }
