@@ -8,7 +8,7 @@ function Footer() {
         <p className="caption text-n-4 lg:block">	&#169; {new Date().getFullYear()}. All right reserved</p>
         <ul className="flex gap-5 flex-wrap">
             {socials.map( (item) => (
-              <a href={item.url} target="_blank" key={item.id}>
+              <a href={item.url} target="_blank" key={item.id} className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6">
                 <img src={item.iconUrl} width={16} height={16} alt={item.title} />
               </a>
             ) )}
