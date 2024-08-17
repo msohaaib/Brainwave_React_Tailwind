@@ -1,4 +1,3 @@
-import React from 'react'
 import Section from './Section'
 import { smallSphere, stars } from '../assets'
 import Heading from './Heading'

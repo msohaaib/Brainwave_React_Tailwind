@@ -1,4 +1,3 @@
-import React from 'react'
 import brackets from '../assets/svg/Brackets.jsx'
 
 function Tagline({className , children}) {
